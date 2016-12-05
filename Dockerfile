@@ -1,5 +1,5 @@
-FROM stoskov/docker-image-nodejs:v4.2.2
-LABEL version="2.0.0"
+FROM node:6.9.1
+LABEL version="3.0.0"
 
 ENV PORT 80
 EXPOSE 80
